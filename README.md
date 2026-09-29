@@ -1,5 +1,8 @@
 # Email Threat Detection: Phishing, BEC & Spoofing Analysis
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d46b88e3-cced-481f-9ada-fb1fdd801fcb" />
+
+
 A Python detector that analyzes raw email headers (`.eml` files) for signs of spoofing, phishing, business email compromise (BEC), and brand impersonation, and **measures its own accuracy** against labeled samples. It includes a KQL version of the same detection for Microsoft Defender Advanced Hunting.
 
 The project follows a detection engineering loop: **build → measure → study the failures → improve → re-measure on unseen data.**
